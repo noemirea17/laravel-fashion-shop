@@ -14,7 +14,11 @@ class HomeController extends Controller
 
     public function contatti()
     {
-        return view('contatti');
+
+        $data = [
+            'contatti' => ['E-mail: bershka@gmail.com', 'Telefono: +390678524165', 'Indirizzo: Corso Vittorio Emanuele, MI 20122' ]
+        ];
+        return view('contatti', $data);
     }
 
     public function vestiti()

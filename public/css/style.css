@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* header */
+
+.logo {
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+header ul li {
+    display: inline;
+    list-style: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 1.5em;
+    color: black;
+}
+
+/* sezione vestiti */
+
+.dresses_container {
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.dress_card {
+    width: calc(100% / 3);
+}
